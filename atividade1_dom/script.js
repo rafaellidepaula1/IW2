@@ -1,6 +1,6 @@
 const texto = document.getElementById('spanTexto');
-const botaoAlterartexto = document.getElementById('btnAlterartexto');
+const botaoAlterarTexto = document.getElementById('btAlterarTexto');
 
-botaoAlterartexto.addEventListener('click', () => {
-    texto.textContent = 'novo texto';
+botaoAlterarTexto.addEventListener('click', () => {
+    texto.textContent = 'Novo texto!';
 });
